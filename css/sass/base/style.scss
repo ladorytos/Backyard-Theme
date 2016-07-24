@@ -7,6 +7,7 @@
 }
 .navbar-right{
 	margin-right: 40px;
+	font-size: 18px;
 }
 /*banner*/
 .banner{
@@ -26,8 +27,9 @@
     content: "";
 }
 .info{
+	margin-left: 10px;
 	padding: 60px 20px;
-	color: white;
+	color: $white;
 	p{
 	padding:20px 0px;
 	}
@@ -38,14 +40,17 @@
 }
 .btn-info{
 	background-color: transparent;
-	border-color: 1px solid blue;
-	color: blue;
+	border-color: 1px solid $azul;
+	color: $azul;
 }
 .available{
 	padding-top: 20px;
-}
-.fa{
+	.fa{
 	margin-left: 10px;
+	}
+	.fa:hover{
+	color:$azul;
+	}
 }
 /*optimize*/
 .optimize, .recreate, footer{
@@ -55,7 +60,7 @@
 	text-align: right;
 }
 .blue{
-	color: blue;
+	color: $azul;
 }
 .info2{
 	padding-right: 40px;
@@ -85,11 +90,15 @@
 		line-height: 1;
 	}
 	.fa{
-		color:blue;
+		color:$azul;
 		padding: 10px;
-		border: 1px solid blue;
+		border: 1px solid $azul;
         border-radius: 100%;
 	}
+	.fa:hover{
+		color:$celeste;
+	}
+
 }
 
 
